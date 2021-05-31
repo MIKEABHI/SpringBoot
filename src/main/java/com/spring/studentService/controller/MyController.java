@@ -11,32 +11,23 @@ import org.springframework.web.bind.annotation.RestController;
 import com.spring.studentService.model.Department;
 import com.spring.studentService.model.Sport;
 import com.spring.studentService.model.Student;
-import com.spring.studentService.repository.DepartmentRepo;
-import com.spring.studentService.repository.ResultRepo;
-import com.spring.studentService.repository.SportRepo;
-import com.spring.studentService.repository.StudentRepo;
+import com.spring.studentService.service.MyService;
 
 @RestController
 public class MyController {
 
 	@Autowired
-	StudentRepo sRepo;
-	@Autowired
-	ResultRepo rRepo;
-	@Autowired
-	DepartmentRepo dRepo;
-	@Autowired
-	SportRepo sportRepo;
+	private MyService service;
 	
-	
+	//MAIN STUDENT MAPPING (OWNER)
 	@PostMapping("/poststudent")
-	public List<Student> poStudent(@RequestBody List<Student> data) {
+	public List<Student> postStudent(@RequestBody List<Student> data) {
 		
-		return sRepo.saveAll(data);
+		return service.poststudent(data);
 	}
 	@GetMapping("/getstudent")
 	public List<Student> getStudent(){
-		return sRepo.findAll();
+		return service.getstudent();
 	}
 	
 	
@@ -44,22 +35,22 @@ public class MyController {
 	//DEPARTMENTS MAPPING
 	@GetMapping("/getdepartment")
 	public List<Department> getdepartment(){
-		return dRepo.findAll();
+		return service.getdepartment();
 	}
 	@PostMapping("/postdepartment")
 	public List<Department> postdepartment(@RequestBody List<Department> data) {
 		
-		return dRepo.saveAll(data);
+		return service.postdepartment(data);
 	}
 	
 	//SPORTS MAPPING
 	@GetMapping("/getsport")
 	public List<Sport> getsport(){
-		return sportRepo.findAll();
+		return service.getsport();
 	}
 	@PostMapping("/postsport")
 	public List<Sport> postsport(@RequestBody List<Sport> data) {
 		
-		return sportRepo.saveAll(data);
+		return service.postsport(data);
 }
 }

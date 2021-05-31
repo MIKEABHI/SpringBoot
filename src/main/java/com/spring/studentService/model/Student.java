@@ -29,18 +29,13 @@ public class Student {
 	@Column(name = "batch")
 	private String batch;
 
-
-
-	
-	@OneToOne(cascade  = CascadeType.ALL)
-	@JoinColumn(name = "Result_Id",referencedColumnName = "rid")
-	private Result result;
-
-
-
 	@ManyToOne(cascade = CascadeType.MERGE)
 //	@JoinColumn(name = "Dep_Id",referencedColumnName = "did")
 	private Department department;
+
+	@OneToOne(cascade  = CascadeType.ALL)
+	@JoinColumn(name = "Result_Id",referencedColumnName = "rid")
+	private Result result;
 	
 	@ManyToMany(cascade = CascadeType.MERGE)
  //   @JoinColumn(name="sportId",referencedColumnName = "sportId")

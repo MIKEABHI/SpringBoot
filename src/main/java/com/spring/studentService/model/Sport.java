@@ -2,6 +2,7 @@ package com.spring.studentService.model;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -24,7 +25,7 @@ public class Sport {
 	
 	
 	@JsonIgnore
-	@ManyToMany(mappedBy = "sports")
+	@ManyToMany(mappedBy = "sports",cascade = CascadeType.ALL)
 	private List<Student> studentSport;
 
 

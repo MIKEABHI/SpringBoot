@@ -13,7 +13,7 @@ import com.spring.studentService.repository.DepartmentRepo;
 import com.spring.studentService.repository.ResultRepo;
 import com.spring.studentService.repository.SportRepo;
 import com.spring.studentService.repository.StudentRepo;
-
+//service class
 @Service
 public class MyService {
 

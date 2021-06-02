@@ -71,4 +71,5 @@ public class MyController {
 		public List<Sport> postsport(@RequestBody List<Sport> data) {
 			return service.postsport(data);
 	}
+		
 }

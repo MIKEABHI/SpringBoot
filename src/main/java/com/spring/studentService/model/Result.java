@@ -133,12 +133,12 @@ public class Result {
 
 
 	public float getTotal() {
-		return total= (sem1+sem2+sem3+sem4+sem5+sem6+sem7+sem8)/8;
+		return total;
 	}
 
 
 	public void setTotal(float total) {
-		this.total = (sem1+sem2+sem3+sem4+sem5+sem6+sem7+sem8)/8;
+		this.total= total;
 	}
 
 
@@ -149,6 +149,14 @@ public class Result {
 
 	public void setStudentResult(Student studentResult) {
 		this.studentResult = studentResult;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Result [rid=" + rid + ", sem1=" + sem1 + ", sem2=" + sem2 + ", sem3=" + sem3 + ", sem4=" + sem4
+				+ ", sem5=" + sem5 + ", sem6=" + sem6 + ", sem7=" + sem7 + ", sem8=" + sem8 + ", total=" + total
+				+ ", studentResult=" + studentResult + "]";
 	}
 
 	

@@ -29,10 +29,12 @@ public class Student {
 	@Column(name = "batch")
 	private String batch;
 
+	
+
 	@ManyToOne(cascade = CascadeType.MERGE)
 //	@JoinColumn(name = "Dep_Id",referencedColumnName = "did")
 	private Department department;
-
+	
 	@OneToOne(cascade  = CascadeType.ALL)
 	@JoinColumn(name = "Result_Id",referencedColumnName = "rid")
 	private Result result;
@@ -115,7 +117,7 @@ public class Student {
 	}
 
 
-	
+
 	
 	
 	

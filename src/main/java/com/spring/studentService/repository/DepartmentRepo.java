@@ -6,4 +6,5 @@ import com.spring.studentService.model.Department;
 
 public interface DepartmentRepo  extends JpaRepository<Department, Integer>{
 
+	public Department findByDname(String dname);
 }

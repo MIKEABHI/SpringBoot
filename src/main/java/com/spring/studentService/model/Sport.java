@@ -60,6 +60,12 @@ public class Sport {
 		this.studentSport = studentSport;
 	}
 
+
+	@Override
+	public String toString() {
+		return "Sport [sportId=" + sportId + ", sportname=" + sportname + ", studentSport=" + studentSport + "]";
+	}
+
 	
 	
 	

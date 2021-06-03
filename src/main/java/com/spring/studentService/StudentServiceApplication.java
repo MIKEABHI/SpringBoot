@@ -1,13 +1,6 @@
 package com.spring.studentService;
 
-import org.apache.log4j.Appender;
-import org.apache.log4j.ConsoleAppender;
-import org.apache.log4j.HTMLLayout;
-import org.apache.log4j.Layout;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
-import org.apache.log4j.SimpleLayout;
-import org.apache.log4j.xml.XMLLayout;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -26,11 +19,8 @@ public class StudentServiceApplication {
 		
 		SpringApplication.run(StudentServiceApplication.class, args);
 		
-		logger.info("this is in info log ");
-		logger.debug("this is debug message");
-		logger.fatal("this is in fatal logger");
-		logger.warn("this is in warning log");
-		logger.error("this is in error log");
+		logger.info("---**************************************---\n\n\t\t\t\t\t\tWELCOME TO STUDENT SERVICES APPLICATION ");
+		logger.debug("\t ---***APLICATION STARTED***--- \t");
 	}
 
 }

@@ -18,82 +18,110 @@ import com.spring.studentService.repository.ResultRepo;
 import com.spring.studentService.repository.SportRepo;
 import com.spring.studentService.repository.StudentRepo;
 
-//service class
+//SERVICE CLASS
 @Service
 public class MyService {
-
+//LOGGER CLASS TO MY SERVICE
 	private static final Logger logger = Logger.getLogger(MyService.class) ;
+//DEPENDENCY INJECTIONS		
+	@Autowired      StudentRepo sRepo;
+	@Autowired      ResultRepo rRepo;
+	@Autowired      DepartmentRepo dRepo;
+	@Autowired      SportRepo sportRepo;
+	@Autowired  	ResultHelper rHelper;
+	@Autowired      DepartmentHelper dHelper;
+	@Autowired      SportHelper sportHelper;
 	
-	@Autowired
-	StudentRepo sRepo;
-	@Autowired
-	ResultRepo rRepo;
-	@Autowired
-	DepartmentRepo dRepo;
-	@Autowired
-	SportRepo sportRepo;
-	@Autowired
-	ResultHelper rHelper;
-	@Autowired
-	DepartmentHelper dHelper;
-	@Autowired
-	SportHelper sportHelper;
-	
-//STUDENT BY ID SERVICE	----STUDENT & FINAL RESULT
-	public List<Object[]> studentRes(int id){
-		
-		if (id<0) {
-			logger.error("ID CANNOT BE EMPTY");}
-		
-		return sRepo.studentResult(id);
-	}
-//STUDENT BY DEPARTMENT SERVICE	---STUDENT & FINAL RESULT	
-	public List<Object[]> studentDep(String dname){
-		
-		if (dname.equals(null)) {
-			logger.error("DNAME CANNOT BE EMPTY");
-		}
-		System.out.println("in the service"+dname);
-		return sRepo.studentDepartment(dname);
-	}
+//	-----*****SERVICE METHODS AVAILABLE HERE*****-----
 	
 	
+//*****************************************************************************************		
 	
+//WELCOME MESSAGE SERVICE	
+	public String Welcome() {
+		String welcome ="\t---***WELCOME TO STUDENT SERVICE PORTAL***---\t\n"
+				+ "\n1)ENROLL STUDENTS : service/enrollstudents \n2)SHOW STUDENT DATABASE : service/studentdatabase"
+				+ "\n3)STUDENTS BY DEPARTMENT : service/department \n4)STUDENT BY ID : service/student"
+				+ "\n5)ENROLL DEPARTMENTS : service/enrolldepartment \n6)SHOW DEPARTMENTS LIST : service/departmentslist"
+				+ "\n7)ENROLL SPORTS : service/enrollsports \n8)SHOW SPORTS LIST : service/sportslist";
+		return welcome;	  }
 	
-	//MAIN STUDENT SERVICE
+//**********************************************************
+	
+//MAIN STUDENT SERVICE TO ENROLL STUDENT 
 	public List<Student> poststudent(List<Student> data) {
-		
 	 data =	rHelper.helpResult(data);
      data= dHelper.helpDepartment(data);
      System.out.println(data.toString()+"in the service");
      data= sportHelper.helpSport(data);
-     
-     return sRepo.saveAll(data);
-	}
-	
+     return sRepo.saveAll(data);  }
+//--------------------------------------------------------	
+//MAIN STUDENT SERVICE TO DISPLAY STUDENT DATABASE 	
 	public List<Student> getstudent(){
-		return sRepo.findAll();
-	}
+		return sRepo.findAll();  }
 	
+//***************************************************************	
 	
-	
-	//DEPARTMENTS MAPPING
+//SERVICE TO DISPLAY DEPARTMENT LIST
 	public List<Department> getdepartment(){
-		return dRepo.findAll();
-	}
+		return dRepo.findAll();  }
+//------------------------------------------------------	
+//SERVICE TO ENROLL DEPARTMENT LIST	
 	public List<Department> postdepartment(List<Department> data) {
-		
-		return dRepo.saveAll(data);
-	}
+			return dRepo.saveAll(data);  }
 	
-	//SPORTS MAPPING
+//*******************************************************	
+	
+//SERVICE TO ENROLL SPORTS LIST
 	public List<Sport> getsport(){
-		
-		return sportRepo.findAll();
-	}
+		return sportRepo.findAll();  }
+//------------------------------------------------------
+//SERVICE TO DISPLAY SPORT LIST	
 	@PostMapping("/postsport")
 	public List<Sport> postsport(List<Sport> data) {
+		return sportRepo.saveAll(data);  }
+
+//**************************************************************
 	
-		return sportRepo.saveAll(data);
-}
+//STUDENT BY ID SERVICE	----STUDENT & FINAL RESULT
+	public List<Object[]> studentRes(int id){
+		if (id<=0) {
+			logger.error("ID CANNOT BE EMPTY");}
+	     List<Object[]> chObjects =	sRepo.studentResult(id);
+	     if (chObjects.size()==0) {
+	    		 logger.error(" ID :"+id+" IS NOT FOUND TRY ANOTHER");
+			} 
+		return  chObjects;  }
+		
+//********************************************************************		
+		
+//STUDENT BY DEPARTMENT SERVICE	---STUDENT & FINAL RESULT	
+	public List<Object[]> studentDep(String dname){
+		if (dname.equals("")) {
+			logger.error("DEPARTMENT NAME CANNOT BE EMPTY");
+			logger.info("AVAILABLE DEPARTMENT NAMES ARE \n"
+						+ "\t\t\t\t\t\tCIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY");}
+		List<Object[]> chObjects = sRepo.studentDepartment(dname);
+		if (chObjects.size()==0) {
+			logger.error("DEPARTNAME :"+dname+"  IS NOT FOUND TRY ANOTHER ");
+			logger.info("AVAILABLE DEPARTMENT NAMES ARE \n"
+					+ "\t\t\t\t\t\tCIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY");
+		}
+		return chObjects ;  }
+	
+//*******************************************************************
+
+//STUDENTS RESULT ABOVE MARK SERVICE ---STUDENT & DEPARTMENT & FINAL RESULT
+	public List<Object[]> resAbove(float mark){
+		return sRepo.resultAbove(mark);  }
+//---------------------------------------------------------------------------	
+//STUDENTS RESULT BELOW MARK SERVICE ---STUDENT & DEPARTMENT & FINAL RESULT
+		public List<Object[]> resBelow(float mark){
+			return sRepo.resultBelow(mark);  }
+//-----------------------------------------------------------------------
+//STUDENTS RESULT BETWEEN THE MARK SERVICE ---STUDENT & DEPARTMENT & FINAL RESULT
+		public List<Object[]> resBetween(float mark1, float mark2){
+			return sRepo.resultBetween(mark1, mark2);  }
+		
+//*******************************************************************************		
 }

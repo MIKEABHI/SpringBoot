@@ -1,0 +1,253 @@
+2021-06-03 12:59:10 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+			WLCOME TO STUDENT SERVICES APPLICATION 
+
+
+2021-06-03 12:59:10 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 APLICATION STARTED 	
+
+2021-06-03 13:00:08 INFO com.spring.studentService.controller.MyController:35 - In the GET student map
+
+2021-06-03 13:04:42 INFO com.spring.studentService.controller.MyController:30 - In the POST student map
+
+2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.ResultHelper:19 - TOTAL IS CALCULATED AS  73.625
+
+2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.ResultHelper:30 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.SportHelper:35 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-03 13:33:51 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+				WLCOME TO STUDENT SERVICES APPLICATION 
+
+
+2021-06-03 13:33:51 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:35:53 INFO com.spring.studentService.controller.MyController:48 - In the GET student map
+
+2021-06-03 13:36:49 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+				WLCOME TO STUDENT SERVICES APPLICATION 
+
+
+2021-06-03 13:36:49 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:44:09 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+				WLCOME TO STUDENT SERVICES APPLICATION 
+
+
+2021-06-03 13:44:09 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:44:18 ERROR com.spring.studentService.service.MyService:66 - DNAME CANNOT BE EMPTY
+
+2021-06-03 13:48:59 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+				WLCOME TO STUDENT SERVICES APPLICATION 
+
+
+2021-06-03 13:48:59 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:49:17 ERROR com.spring.studentService.service.MyService:66 - DEPARTMENT NAME CANNOT BE EMPTY
+
+2021-06-03 13:49:17 INFO com.spring.studentService.service.MyService:67 - AVAILABLE DEPARTMENT NAMES ARE 
+CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-03 13:50:22 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+				WLCOME TO STUDENT SERVICES APPLICATION 
+
+
+2021-06-03 13:50:22 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:52:13 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 13:52:13 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:53:00 ERROR com.spring.studentService.service.MyService:66 - DEPARTMENT NAME CANNOT BE EMPTY
+
+2021-06-03 13:53:00 INFO com.spring.studentService.service.MyService:67 - AVAILABLE DEPARTMENT NAMES ARE 
+				CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-03 13:54:44 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 13:54:44 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 13:55:04 ERROR com.spring.studentService.service.MyService:66 - DEPARTMENT NAME CANNOT BE EMPTY
+
+2021-06-03 13:55:04 INFO com.spring.studentService.service.MyService:67 - AVAILABLE DEPARTMENT NAMES ARE 
+						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-03 14:28:20 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 14:28:20 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 14:28:53 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
+
+2021-06-03 14:35:35 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
+
+2021-06-03 14:38:45 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
+
+2021-06-03 14:44:36 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 14:44:36 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 14:48:47 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
+
+2021-06-03 14:58:15 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 14:58:15 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 14:59:29 ERROR com.spring.studentService.service.MyService:93 - DEPARTMENT NAME CANNOT BE EMPTY
+
+2021-06-03 14:59:29 INFO com.spring.studentService.service.MyService:94 - AVAILABLE DEPARTMENT NAMES ARE 
+						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-03 15:01:45 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 15:01:45 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 16:39:07 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 16:39:07 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 16:40:10 ERROR com.spring.studentService.service.MyService:92 - DEPARTMENT NAME CANNOT BE EMPTY
+
+2021-06-03 16:40:10 INFO com.spring.studentService.service.MyService:93 - AVAILABLE DEPARTMENT NAMES ARE 
+						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-03 16:46:40 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
+
+2021-06-03 17:44:50 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 17:44:50 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 17:49:23 INFO com.spring.studentService.controller.MyController:39 - In the POST student map
+
+2021-06-03 17:53:01 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 17:53:01 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 17:53:06 INFO com.spring.studentService.controller.MyController:39 - In the POST student map
+
+2021-06-03 17:54:40 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 17:54:40 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 17:54:45 INFO com.spring.studentService.controller.MyController:39 - In the POST student map
+
+2021-06-03 17:54:45 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  86.625
+
+2021-06-03 17:54:45 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-03 17:54:46 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-03 17:54:46 DEBUG com.spring.studentService.helper.SportHelper:35 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-03 18:09:48 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 18:09:48 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 18:10:09 ERROR com.spring.studentService.service.MyService:87 - 123IS NOT FOUND
+
+2021-06-03 18:14:51 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-03 18:14:51 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-03 18:15:04 ERROR com.spring.studentService.service.MyService:87 -  ID :123 IS NOT FOUND TRY ANOTHER
+
+2021-06-03 18:15:55 ERROR com.spring.studentService.service.MyService:101 - DEPARTNAME :mechi  IS NOT FOUND TRY ANOTHER 
+
+2021-06-03 18:15:55 INFO com.spring.studentService.service.MyService:102 - AVAILABLE DEPARTMENT NAMES ARE 
+						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-04 00:24:45 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 00:24:45 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 00:24:56 INFO com.spring.studentService.controller.MyController:49 - In the GET student map
+
+2021-06-04 01:09:14 INFO com.spring.studentService.controller.MyController:49 - In the GET student map
+
+2021-06-04 01:09:32 ERROR com.spring.studentService.service.MyService:87 -  ID :14 IS NOT FOUND TRY ANOTHER
+
+2021-06-04 01:10:06 ERROR com.spring.studentService.service.MyService:101 - DEPARTNAME :mechi  IS NOT FOUND TRY ANOTHER 
+
+2021-06-04 01:10:06 INFO com.spring.studentService.service.MyService:102 - AVAILABLE DEPARTMENT NAMES ARE 
+						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-04 01:30:56 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 01:30:56 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 01:36:21 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 01:36:21 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 01:41:39 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 01:41:39 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 01:43:08 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WLCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 01:43:08 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 02:02:24 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 02:02:24 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 02:14:30 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 02:14:30 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 02:16:22 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 02:16:22 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-04 02:17:13 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-04 02:17:13 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+

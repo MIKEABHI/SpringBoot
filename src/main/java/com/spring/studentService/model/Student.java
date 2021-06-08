@@ -47,6 +47,11 @@ public class Student {
  
 
 
+	public Student(int i, String string, String string2, String string3) {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public int getSid() {
 		return sid;
 	}
@@ -114,6 +119,19 @@ public class Student {
 
 	public void setSports(List<Sport> sports) {
 		this.sports = sports;
+	}
+
+	
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", fname=" + fname + ", lname=" + lname + ", batch=" + batch + "]";
 	}
 
 

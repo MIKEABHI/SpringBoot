@@ -10,9 +10,14 @@ import com.spring.studentService.model.Student;
 
 public interface StudentRepo extends JpaRepository<Student, Integer>{
 	
+//STUDENT BY ID ----ALL DETAILS	
+	public Student findBySid(int id);
+	
+	
 //STUDENT BY ID ----STUDENT & FINAL RESULT
-	@Query(value ="select student.sid,student.fname,student.lname,student.batch , result.total "
-			+ "from student ,result where student.result_id = result.rid and student.sid=:id",nativeQuery = true)
+	@Query(value ="select student.sid,student.fname,student.lname,department.dname,student.batch , result.total "
+			+ "from student,department,result where student.result_id = result.rid and student.sid=:id "
+			+ " and student.department_did=department.did",nativeQuery = true)
 	public List<Object[]> studentResult(@Param("id") int id);
 
 //STUDENT BY DEPARTMENT ----STUDENT & FINAL RESULT	
@@ -39,5 +44,9 @@ public interface StudentRepo extends JpaRepository<Student, Integer>{
 				+ "and result.total between :mark1 and :mark2", nativeQuery = true)
 		public List<Object[]> resultBetween(@Param("mark1") float mark1,@Param("mark2") float mark2);		
 
-
+//STUDENTS BY SPORT ---STUDENT & DEPARTMENT & SPORT
+		@Query(value = "select student.sid,student.fname,student.lname,department.dname,student.batch,sport.sportname from "
+				+ " student , sport ,department , student_sports ss where student.department_did=department.did and "
+				+ " student.sid = ss.sid and sport.sport_id =ss.sport_id and sport.sportname= :sport",nativeQuery = true)
+		public List<Object[]> studentSport(@Param("sport") String sport);
 }   

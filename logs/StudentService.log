@@ -1,253 +1,1154 @@
-2021-06-03 12:59:10 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-			WLCOME TO STUDENT SERVICES APPLICATION 
-
-
-2021-06-03 12:59:10 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 APLICATION STARTED 	
-
-2021-06-03 13:00:08 INFO com.spring.studentService.controller.MyController:35 - In the GET student map
-
-2021-06-03 13:04:42 INFO com.spring.studentService.controller.MyController:30 - In the POST student map
-
-2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.ResultHelper:19 - TOTAL IS CALCULATED AS  73.625
-
-2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.ResultHelper:30 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
-
-2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
-
-2021-06-03 13:04:42 DEBUG com.spring.studentService.helper.SportHelper:35 - ASIIGNING SPORT DETAILS BY SPORT NAME
-
-2021-06-03 13:33:51 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-				WLCOME TO STUDENT SERVICES APPLICATION 
-
-
-2021-06-03 13:33:51 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:35:53 INFO com.spring.studentService.controller.MyController:48 - In the GET student map
-
-2021-06-03 13:36:49 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-				WLCOME TO STUDENT SERVICES APPLICATION 
-
-
-2021-06-03 13:36:49 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:44:09 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-				WLCOME TO STUDENT SERVICES APPLICATION 
-
-
-2021-06-03 13:44:09 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:44:18 ERROR com.spring.studentService.service.MyService:66 - DNAME CANNOT BE EMPTY
-
-2021-06-03 13:48:59 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-				WLCOME TO STUDENT SERVICES APPLICATION 
-
-
-2021-06-03 13:48:59 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:49:17 ERROR com.spring.studentService.service.MyService:66 - DEPARTMENT NAME CANNOT BE EMPTY
-
-2021-06-03 13:49:17 INFO com.spring.studentService.service.MyService:67 - AVAILABLE DEPARTMENT NAMES ARE 
-CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-03 13:50:22 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-				WLCOME TO STUDENT SERVICES APPLICATION 
-
-
-2021-06-03 13:50:22 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:52:13 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 13:52:13 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:53:00 ERROR com.spring.studentService.service.MyService:66 - DEPARTMENT NAME CANNOT BE EMPTY
-
-2021-06-03 13:53:00 INFO com.spring.studentService.service.MyService:67 - AVAILABLE DEPARTMENT NAMES ARE 
-				CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-03 13:54:44 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 13:54:44 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 13:55:04 ERROR com.spring.studentService.service.MyService:66 - DEPARTMENT NAME CANNOT BE EMPTY
-
-2021-06-03 13:55:04 INFO com.spring.studentService.service.MyService:67 - AVAILABLE DEPARTMENT NAMES ARE 
-						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-03 14:28:20 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 14:28:20 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 14:28:53 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
-
-2021-06-03 14:35:35 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
-
-2021-06-03 14:38:45 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
-
-2021-06-03 14:44:36 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 14:44:36 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 14:48:47 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
-
-2021-06-03 14:58:15 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 14:58:15 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 14:59:29 ERROR com.spring.studentService.service.MyService:93 - DEPARTMENT NAME CANNOT BE EMPTY
-
-2021-06-03 14:59:29 INFO com.spring.studentService.service.MyService:94 - AVAILABLE DEPARTMENT NAMES ARE 
-						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-03 15:01:45 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 15:01:45 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 16:39:07 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 16:39:07 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 16:40:10 ERROR com.spring.studentService.service.MyService:92 - DEPARTMENT NAME CANNOT BE EMPTY
-
-2021-06-03 16:40:10 INFO com.spring.studentService.service.MyService:93 - AVAILABLE DEPARTMENT NAMES ARE 
-						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-03 16:46:40 INFO com.spring.studentService.controller.MyController:44 - In the GET student map
-
-2021-06-03 17:44:50 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 17:44:50 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 17:49:23 INFO com.spring.studentService.controller.MyController:39 - In the POST student map
-
-2021-06-03 17:53:01 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 17:53:01 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 17:53:06 INFO com.spring.studentService.controller.MyController:39 - In the POST student map
-
-2021-06-03 17:54:40 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 17:54:40 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 17:54:45 INFO com.spring.studentService.controller.MyController:39 - In the POST student map
-
-2021-06-03 17:54:45 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  86.625
-
-2021-06-03 17:54:45 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
-
-2021-06-03 17:54:46 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
-
-2021-06-03 17:54:46 DEBUG com.spring.studentService.helper.SportHelper:35 - ASIIGNING SPORT DETAILS BY SPORT NAME
-
-2021-06-03 18:09:48 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 18:09:48 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 18:10:09 ERROR com.spring.studentService.service.MyService:87 - 123IS NOT FOUND
-
-2021-06-03 18:14:51 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-03 18:14:51 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-03 18:15:04 ERROR com.spring.studentService.service.MyService:87 -  ID :123 IS NOT FOUND TRY ANOTHER
-
-2021-06-03 18:15:55 ERROR com.spring.studentService.service.MyService:101 - DEPARTNAME :mechi  IS NOT FOUND TRY ANOTHER 
-
-2021-06-03 18:15:55 INFO com.spring.studentService.service.MyService:102 - AVAILABLE DEPARTMENT NAMES ARE 
-						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-04 00:24:45 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-04 00:24:45 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-04 00:24:56 INFO com.spring.studentService.controller.MyController:49 - In the GET student map
-
-2021-06-04 01:09:14 INFO com.spring.studentService.controller.MyController:49 - In the GET student map
-
-2021-06-04 01:09:32 ERROR com.spring.studentService.service.MyService:87 -  ID :14 IS NOT FOUND TRY ANOTHER
-
-2021-06-04 01:10:06 ERROR com.spring.studentService.service.MyService:101 - DEPARTNAME :mechi  IS NOT FOUND TRY ANOTHER 
-
-2021-06-04 01:10:06 INFO com.spring.studentService.service.MyService:102 - AVAILABLE DEPARTMENT NAMES ARE 
-						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
-
-2021-06-04 01:30:56 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-04 01:30:56 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-04 01:36:21 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-04 01:36:21 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-04 01:41:39 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-04 01:41:39 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-04 01:43:08 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
-
-						WLCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-04 01:43:08 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-04 02:02:24 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+2021-06-05 13:19:23 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
 
 						WELCOME TO STUDENT SERVICES APPLICATION 
 
-2021-06-04 02:02:24 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+2021-06-05 13:19:23 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
 
-2021-06-04 02:14:30 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+2021-06-05 13:21:48 INFO com.spring.studentService.controller.MyController:53 - IN THE GET STUDENT MAP
+
+2021-06-05 13:24:29 INFO com.spring.studentService.controller.MyController:47 - IN THE  POST STUDENT MAP
+
+2021-06-05 13:24:29 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  90.375
+
+2021-06-05 13:24:29 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 13:24:29 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 13:24:29 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 13:25:12 INFO com.spring.studentService.controller.MyController:53 - IN THE GET STUDENT MAP
+
+2021-06-05 13:33:13 ERROR com.spring.studentService.service.MyService:111 -  ID :90 IS NOT FOUND TRY ANOTHER
+
+2021-06-05 13:34:22 ERROR com.spring.studentService.service.MyService:127 - DEPARTNAME :mechii  IS NOT FOUND TRY ANOTHER 
+
+2021-06-05 13:34:22 INFO com.spring.studentService.service.MyService:128 - AVAILABLE DEPARTMENT NAMES ARE 
+						CIVIL  EEE  MECH  ECE  CSE  CHEMICAL  METALLURGY
+
+2021-06-05 13:39:43 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
 
 						WELCOME TO STUDENT SERVICES APPLICATION 
 
-2021-06-04 02:14:30 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+2021-06-05 13:39:43 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
 
-2021-06-04 02:16:22 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+2021-06-05 13:40:33 INFO com.spring.studentService.controller.MyController:53 - IN THE GET STUDENT MAP
 
-						WELCOME TO STUDENT SERVICES APPLICATION 
-
-2021-06-04 02:16:22 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
-
-2021-06-04 02:17:13 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+2021-06-05 13:53:26 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
 
 						WELCOME TO STUDENT SERVICES APPLICATION 
 
-2021-06-04 02:17:13 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+2021-06-05 13:53:26 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 13:56:53 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 13:56:53 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 13:59:30 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 13:59:30 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:01:53 INFO com.spring.studentService.controller.MyController:54 - IN THE GET STUDENT MAP
+
+2021-06-05 14:02:48 INFO com.spring.studentService.controller.MyController:54 - IN THE GET STUDENT MAP
+
+2021-06-05 14:04:08 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:04:08 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:04:08 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:04:08 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:04:08 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:04:37 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:04:37 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:04:37 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:04:37 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:04:37 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:04:48 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:04:48 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:04:48 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:04:48 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:04:48 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:05:34 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:05:34 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:05:34 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:05:34 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:05:34 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:06:08 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:06:08 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:06:08 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:06:08 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:06:08 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:06:21 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:06:21 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:06:21 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:06:21 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:06:21 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:06:28 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:06:28 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:06:28 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:06:28 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:06:28 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:06:59 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:06:59 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:06:59 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:06:59 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:07:09 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:07:09 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:07:09 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:07:09 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:07:09 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:07:21 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:07:21 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:07:21 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:07:21 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:07:28 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:07:28 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:07:28 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:07:28 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:07:53 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:07:53 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:07:53 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:07:53 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:07:53 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:09:00 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:09:00 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:09:00 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:09:00 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:09:00 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:09:11 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:09:11 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:09:11 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:09:11 DEBUG com.spring.studentService.helper.DepartmentHelper:28 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:09:11 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:15:24 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:15:24 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:15:33 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:15:33 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:15:33 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:15:33 DEBUG com.spring.studentService.helper.DepartmentHelper:29 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:15:33 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:15:55 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:15:55 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:15:55 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:15:55 DEBUG com.spring.studentService.helper.DepartmentHelper:29 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:15:55 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:17:29 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:17:29 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:17:44 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:17:44 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:17:44 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:17:44 DEBUG com.spring.studentService.helper.DepartmentHelper:31 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:17:44 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:17:52 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:17:52 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:17:52 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:17:52 DEBUG com.spring.studentService.helper.DepartmentHelper:31 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:17:52 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:20:09 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:20:09 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:20:20 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:20:20 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:20:20 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:29:28 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:29:28 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:29:42 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:29:42 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:29:42 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:29:43 ERROR com.spring.studentService.helper.DepartmentHelper:30 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 14:29:43 DEBUG com.spring.studentService.exception.MyException:19 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 14:31:17 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:31:17 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:31:24 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:31:24 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:31:24 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:31:25 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:31:25 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:31:47 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:31:47 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:31:47 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:31:47 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:32:12 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:32:12 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:32:12 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:32:12 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:32:12 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:32:21 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:32:21 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:32:21 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:32:21 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:32:21 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:32:27 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:32:27 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:32:27 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:32:27 ERROR com.spring.studentService.helper.DepartmentHelper:30 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 14:32:27 DEBUG com.spring.studentService.exception.MyException:19 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 14:34:50 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:34:50 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:34:58 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:34:58 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:34:58 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:34:58 ERROR com.spring.studentService.helper.DepartmentHelper:30 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 14:34:58 DEBUG com.spring.studentService.exception.MyException:19 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 14:36:55 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 14:36:55 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 14:37:09 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:37:09 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:37:09 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:37:09 ERROR com.spring.studentService.helper.DepartmentHelper:30 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 14:37:09 DEBUG com.spring.studentService.exception.MyException:19 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 14:37:17 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:37:17 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:37:17 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:37:17 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:37:17 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:37:27 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:37:27 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  89.75
+
+2021-06-05 14:37:27 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:37:27 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:37:27 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 14:37:49 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 14:37:49 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 14:37:49 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 14:37:49 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 14:37:49 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:06:03 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:06:03 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:06:43 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:06:43 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:06:43 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:06:43 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:06:57 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:06:57 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:06:57 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:06:57 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:06:57 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:07:06 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:07:06 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:07:06 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:07:06 ERROR com.spring.studentService.helper.DepartmentHelper:30 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:07:06 DEBUG com.spring.studentService.exception.MyException:19 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 17:07:58 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:07:58 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:07:58 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:07:58 DEBUG com.spring.studentService.helper.DepartmentHelper:35 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:07:58 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:18:25 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:18:25 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:18:38 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:18:38 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:18:38 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:18:38 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:18:38 DEBUG com.spring.studentService.helper.DepartmentHelper:37 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:18:38 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:20:55 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:20:55 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:20:55 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:20:55 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:20:55 DEBUG com.spring.studentService.helper.DepartmentHelper:37 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:20:55 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:21:28 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:21:28 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:21:28 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:21:28 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:21:28 DEBUG com.spring.studentService.helper.DepartmentHelper:37 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:21:28 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:22:34 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:22:34 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:22:39 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:22:39 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:22:39 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:22:39 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:22:39 DEBUG com.spring.studentService.exception.MyException:20 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 17:23:40 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:23:40 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:23:46 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:23:46 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:23:46 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:23:46 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:26:15 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:26:15 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:26:20 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:26:20 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:26:20 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:26:21 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:26:21 DEBUG com.spring.studentService.exception.MyException:20 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 17:27:59 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:27:59 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:28:04 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:28:04 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:28:04 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:28:04 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:28:04 DEBUG com.spring.studentService.exception.MyException:20 - FROM THE MyEXCEPTION CLASS : DEPARTMENT NAME IS NOT VALID
+
+2021-06-05 17:29:02 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:29:02 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:29:09 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:29:09 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:29:09 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:29:10 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:29:10 DEBUG com.spring.studentService.helper.DepartmentHelper:38 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:29:10 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:31:10 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:31:10 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:31:48 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:31:48 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:31:55 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:31:55 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:31:55 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:31:56 ERROR com.spring.studentService.helper.DepartmentHelper:31 - DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:31:56 DEBUG com.spring.studentService.helper.DepartmentHelper:38 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:31:56 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:34:00 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:34:00 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:34:09 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:34:09 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:34:09 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:34:09 ERROR com.spring.studentService.helper.DepartmentHelper:31 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:34:09 DEBUG com.spring.studentService.helper.DepartmentHelper:38 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:34:09 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:37:02 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:37:02 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:37:06 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:37:06 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:37:06 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:37:06 ERROR com.spring.studentService.helper.DepartmentHelper:30 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:37:06 DEBUG com.spring.studentService.helper.DepartmentHelper:34 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:37:06 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:38:42 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:38:42 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:38:51 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:38:51 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:38:51 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:38:52 ERROR com.spring.studentService.helper.DepartmentHelper:32 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:38:52 DEBUG com.spring.studentService.helper.DepartmentHelper:36 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:38:52 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:39:38 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:39:38 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 17:39:44 INFO com.spring.studentService.controller.MyController:48 - IN THE  POST STUDENT MAP
+
+2021-06-05 17:39:44 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 17:39:44 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 17:39:44 ERROR com.spring.studentService.helper.DepartmentHelper:32 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 17:39:44 DEBUG com.spring.studentService.helper.DepartmentHelper:36 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 17:39:45 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-05 17:42:21 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 17:42:21 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:11:17 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:11:17 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:14:22 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:14:22 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:21:09 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:21:09 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:30:44 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:30:44 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:31:30 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:31:30 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:33:37 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:33:37 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:41:22 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:41:22 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:42:21 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:42:21 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:43:08 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:43:08 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:43:50 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:43:50 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 18:44:57 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 18:44:57 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 19:17:32 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-05 19:17:32 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-05 19:17:58 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-05 19:17:58 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-05 19:17:58 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-05 19:17:59 ERROR com.spring.studentService.helper.DepartmentHelper:32 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-05 19:17:59 DEBUG com.spring.studentService.helper.DepartmentHelper:36 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-05 19:17:59 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-06 14:29:39 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:29:39 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:30:12 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:30:12 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:30:12 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:30:13 ERROR com.spring.studentService.helper.DepartmentHelper:34 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-06 14:30:13 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-06 14:34:32 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:34:32 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:34:39 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:34:39 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:34:39 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:34:39 ERROR com.spring.studentService.helper.DepartmentHelper:34 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-06 14:37:19 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:37:19 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:37:27 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:37:27 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:37:27 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:37:27 ERROR com.spring.studentService.helper.DepartmentHelper:34 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-06 14:39:26 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:39:26 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:39:35 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:39:35 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:39:35 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:39:35 ERROR com.spring.studentService.helper.DepartmentHelper:34 - U GOTCHA ERROR BUDDY!!! DEPARTMENT IS NOT VALID CHECK BELOW 
+					 			CIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL
+
+2021-06-06 14:39:35 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-06 14:41:58 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:41:58 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:42:09 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:42:09 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:42:09 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:42:10 DEBUG com.spring.studentService.helper.DepartmentHelper:31 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-06 14:42:10 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-06 14:43:32 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:43:32 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:43:42 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:43:42 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:43:42 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:43:42 DEBUG com.spring.studentService.helper.DepartmentHelper:31 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-06 14:43:42 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-06 14:44:32 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:44:32 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:44:45 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:44:45 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:44:45 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:44:46 DEBUG com.spring.studentService.helper.DepartmentHelper:31 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-06 14:46:03 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:46:03 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:46:21 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 14:46:21 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 14:46:27 INFO com.spring.studentService.controller.MyController:49 - IN THE  POST STUDENT MAP
+
+2021-06-06 14:46:27 DEBUG com.spring.studentService.helper.ResultHelper:21 - TOTAL IS CALCULATED AS  77.5
+
+2021-06-06 14:46:27 DEBUG com.spring.studentService.helper.ResultHelper:32 - RESULT IS CALCULATED AND UPDATED TO EACH STUDENT 
+
+2021-06-06 14:46:27 DEBUG com.spring.studentService.helper.DepartmentHelper:31 - GROUPING STUDENTS BY DEPARTMENT DETAILS 
+
+2021-06-06 14:46:27 DEBUG com.spring.studentService.helper.SportHelper:33 - ASIIGNING SPORT DETAILS BY SPORT NAME
+
+2021-06-06 14:52:29 DEBUG com.spring.studentService.service.MyService:88 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 14:52:29 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 14:52:29 DEBUG com.spring.studentService.helper.DepartmentHelper:50 - IN THE DEPARTMENT HELPER  civil
+
+2021-06-06 14:52:29 DEBUG com.spring.studentService.service.MyService:91 - IN THE DEPARTMENT SERVICE  civil
+
+2021-06-06 14:52:29 DEBUG com.spring.studentService.exception.MyException:25 - FROM THE MyEXCEPTION CLASS : DEPARTMENT : civil ALREADY AVAILABLE
+
+2021-06-06 15:00:35 DEBUG com.spring.studentService.service.MyService:88 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:00:35 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:05:10 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:05:10 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:06:01 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:06:01 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:06:09 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:06:09 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:32:19 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:32:19 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:32:50 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:32:50 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:35:38 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:35:38 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:35:57 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:35:57 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:36:58 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:36:58 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:37:22 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:37:22 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:38:04 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:38:04 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:38:09 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:38:09 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:39:27 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:39:27 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:40:56 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:40:56 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:41:47 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:41:47 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:42:09 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:42:09 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:43:46 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:43:46 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:44:03 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:44:03 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:44:46 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:44:46 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:45:16 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:45:16 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:45:31 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:45:31 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:45:31 DEBUG com.spring.studentService.helper.DepartmentHelper:51 - IN THE DEPARTMENT HELPER  
+
+2021-06-06 15:45:31 DEBUG com.spring.studentService.service.MyService:90 - IN THE DEPARTMENT SERVICE  
+
+2021-06-06 15:45:31 DEBUG com.spring.studentService.exception.MyException:25 - FROM THE MyEXCEPTION CLASS : DEPARTMENT :  ALREADY AVAILABLE
+
+2021-06-06 15:46:06 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:46:06 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:46:06 DEBUG com.spring.studentService.helper.DepartmentHelper:51 - IN THE DEPARTMENT HELPER   
+
+2021-06-06 15:46:06 DEBUG com.spring.studentService.service.MyService:90 - IN THE DEPARTMENT SERVICE   
+
+2021-06-06 15:46:06 DEBUG com.spring.studentService.exception.MyException:25 - FROM THE MyEXCEPTION CLASS : DEPARTMENT :   ALREADY AVAILABLE
+
+2021-06-06 15:46:19 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:46:19 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:47:29 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:47:29 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:48:36 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:48:36 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:48:37 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:48:37 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:48:43 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:48:43 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:48:46 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:48:46 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:51:02 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:51:02 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:51:08 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:51:08 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:53:49 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:53:49 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:53:56 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:53:56 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:56:27 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 15:56:27 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 15:56:36 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 15:56:36 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 15:56:37 ERROR com.spring.studentService.service.MyService:100 - DEPARTMENT NAME CAN'T BE EMPTY
+
+2021-06-06 16:02:07 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 16:02:07 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 16:02:18 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 16:02:18 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 16:03:33 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-06 16:03:33 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-06 16:03:58 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 16:03:58 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 16:04:04 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 16:04:04 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 16:04:06 DEBUG com.spring.studentService.service.MyService:87 - IN THE DEPARTMENT SERVICE
+
+2021-06-06 16:04:06 DEBUG com.spring.studentService.helper.DepartmentHelper:46 - IN THE DEPARTMENT HELPER
+
+2021-06-06 16:04:06 DEBUG com.spring.studentService.helper.DepartmentHelper:51 - IN THE DEPARTMENT HELPER  ece
+
+2021-06-06 16:04:06 DEBUG com.spring.studentService.service.MyService:90 - IN THE DEPARTMENT SERVICE  ece
+
+2021-06-06 16:04:06 DEBUG com.spring.studentService.exception.MyException:25 - FROM THE MyEXCEPTION CLASS : DEPARTMENT : ece ALREADY AVAILABLE
+
+2021-06-07 13:18:21 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-07 13:18:21 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-07 14:27:33 INFO com.spring.studentService.controller.MyController:55 - IN THE GET STUDENT MAP
+
+2021-06-07 14:27:53 INFO com.spring.studentService.controller.MyController:55 - IN THE GET STUDENT MAP
+
+2021-06-07 14:28:42 INFO com.spring.studentService.controller.MyController:55 - IN THE GET STUDENT MAP
+
+2021-06-08 12:53:47 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-08 12:53:47 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-08 12:53:53 INFO com.spring.studentService.controller.MyController:55 - IN THE GET STUDENT MAP
+
+2021-06-08 15:43:43 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-08 15:43:43 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-08 15:45:38 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-08 15:45:38 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-08 15:49:32 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-08 15:49:32 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
+
+2021-06-08 17:59:31 INFO com.spring.studentService.StudentServiceApplication:22 - ---**************************************---
+
+						WELCOME TO STUDENT SERVICES APPLICATION 
+
+2021-06-08 17:59:31 DEBUG com.spring.studentService.StudentServiceApplication:23 - 	 ---***APLICATION STARTED***--- 	
 

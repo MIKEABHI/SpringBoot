@@ -27,8 +27,6 @@ public class SportHelper {
 				Sport sport2=sportRepo.findBySportname(sport.getSportname());
 				sport.setSportId(sport2.getSportId());
 				sport.setSportname(sport2.getSportname());
-				System.out.println("get sportname"+""+sport.getSportname()+""+sport.getSportId());
-				
 			}
 			student.setSports(sports);
 		}

@@ -29,6 +29,7 @@ public class SportHelper {
 				sport.setSportname(sport2.getSportname());
 			}
 			student.setSports(sports);
+	
 		}
 		 logger.debug("ASIIGNING SPORT DETAILS BY SPORT NAME");
 			return data;

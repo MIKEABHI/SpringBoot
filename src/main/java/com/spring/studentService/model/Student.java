@@ -47,9 +47,7 @@ public class Student {
  
 
 
-	public Student(int i, String string, String string2, String string3) {
-		// TODO Auto-generated constructor stub
-	}
+
 
 
 	public int getSid() {
@@ -126,6 +124,16 @@ public class Student {
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	
+
+	public Student(int sid, String fname, String lname, String batch) {
+		super();
+		this.sid = sid;
+		this.fname = fname;
+		this.lname = lname;
+		this.batch = batch;
 	}
 
 

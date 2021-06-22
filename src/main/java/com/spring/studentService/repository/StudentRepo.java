@@ -18,7 +18,7 @@ public interface StudentRepo extends JpaRepository<Student, Integer>{
 	@Query(value ="select student.sid,student.fname,student.lname,department.dname,student.batch , result.total "
 			+ "from student,department,result where student.result_id = result.rid and student.sid=:id "
 			+ " and student.department_did=department.did",nativeQuery = true)
-	public List<Object[]> studentResult(@Param("id") int id);
+	public Object[] studentResult(@Param("id") int id);
 
 //STUDENT BY DEPARTMENT ----STUDENT & FINAL RESULT	
 	@Query(value = "select student.sid,student.fname,student.lname,student.batch , result.total "

@@ -5,7 +5,6 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.spring.studentService.exception.MyException;
 import com.spring.studentService.model.Department;
@@ -20,7 +19,7 @@ public class DepartmentHelper {
 	@Autowired   DepartmentRepo dRepo;
 	@Autowired   MyException exception;
 	
-	@ExceptionHandler(value = MyException.class)
+//	@ExceptionHandler(value = MyException.class)
 	public List<Student> helpDepartment(List<Student> data) {
 		
 	 for (Student student : data) {
@@ -29,12 +28,14 @@ public class DepartmentHelper {
 		if (department!=null) {
 			student.setDepartment(department); 
 			logger.debug("GROUPING STUDENTS BY DEPARTMENT DETAILS ");
-			return data;}
+			}
 		else {
 			logger.error(exception.error("DEPARTMENT IS NOT VALID CHECK BELOW \n\t\t\t\t\t "
 					+ "\t\t\tCIVIL EEE MECH ECE CSE MEALLURGY CHEMICAL"));
 		//	throw new MyException("DEPARTMENT NAME IS NOT VALID"); 
-			}    }
+			}  
+			
+	 }
 	 
 		return data;
 	}
